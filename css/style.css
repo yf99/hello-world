@@ -1,0 +1,357 @@
+/* CSS初始化 */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+button {
+    border: none;
+}
+
+body {
+    background-color: #f3f5f7;
+    /* 为了方便，写完删掉 */
+    height: 3000px;
+}
+
+
+/* 版心 */
+
+.w {
+    width: 1200px;
+    margin: auto;
+}
+
+
+/* header开始 */
+
+.header {
+    height: 42px;
+    /* background-color: pink; */
+    margin: 30px auto;
+}
+
+.logo {
+    float: left;
+    margin-right: 60px;
+}
+
+.nav {
+    float: left;
+}
+
+.nav ul li {
+    float: left;
+}
+
+.nav ul li a {
+    display: inline-block;
+    height: 40px;
+    padding: 0 10px;
+    margin-right: 20px;
+    font-size: 18px;
+    line-height: 40px;
+    text-decoration: none;
+    color: #050505;
+}
+
+.nav ul li a:hover {
+    border-bottom: 2px solid #00a4ff;
+}
+
+.search {
+    float: left;
+    margin-left: 70px;
+}
+
+.search input {
+    float: left;
+    padding-left: 20px;
+    width: 340px;
+    height: 40px;
+    color: #ccc;
+    border: 1px solid #00a4ff;
+    border-right: 0;
+}
+
+.search button {
+    float: left;
+    width: 50px;
+    height: 42px;
+    background: url(../images/search.png);
+}
+
+.user {
+    float: left;
+    /* vertical-align: middle; */
+    height: 42px;
+    line-height: 42px;
+    margin-left: 30px;
+    font-size: 14px;
+    color: #666;
+}
+
+
+/* banner开始 */
+
+.banner {
+    height: 420px;
+    background: #1c036c url(../images/banner2.jpg) no-repeat top center;
+}
+
+.subnav {
+    float: left;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 150px;
+    height: 420px;
+    padding: 0 20px;
+}
+
+.subnav ul {
+    margin: 13px 0;
+}
+
+.subnav ul li {
+    height: 44p x;
+    line-height: 44px;
+    /* background: url(../images/arrow.png) no-repeat center right; */
+    /* background-position-x: 165px; */
+}
+
+.subnav ul li a {
+    color: white;
+    /* background: url(../images/arrow.png) no-repeat center right;
+    margin-right: -15px; */
+    font-size: 14px;
+}
+
+.subnav span {
+    float: right;
+}
+
+
+/* .subnav ul li:hover {
+    color: #00b4ff;
+    background: url(../images/arrow_blue.png) no-repeat center right;
+    background-position-x: 165px;
+} */
+
+.subnav ul li a:hover {
+    color: #00b4ff;
+}
+
+.course {
+    float: right;
+    width: 228px;
+    height: 300px;
+    margin: 50px 0 70px 0;
+    background-color: #fff;
+}
+
+.course .course_hd {
+    margin: 0;
+    height: 48px;
+    background-color: #9bceea;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 48px;
+    text-align: center;
+    color: white;
+}
+
+.course .course_bd ul {
+    margin-top: 20px;
+}
+
+.course .course_bd ul li {
+    margin: 0px auto 27px auto;
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+
+.course .course_bd ul li a {
+    display: inline-block;
+    position: relative;
+    width: 210px;
+    height: 33px;
+    font-size: 16px;
+    font-weight: lighter;
+    color: #4e4e4e;
+    padding-left: 18px;
+}
+
+.course .course_bd ul li a .spana {
+    position: absolute;
+    top: 2px;
+    font-size: 14px;
+    color: #4e4e4e;
+    padding-left: 8px;
+}
+
+.course .course_bd ul li a .spanb {
+    position: absolute;
+    top: 21px;
+    font-size: 12px;
+    color: #a5a5a5;
+    /* padding-left: 18px; */
+}
+
+.course button {
+    border: 1px solid #00a4ff;
+    width: 198px;
+    height: 38px;
+    margin: 5px 14px 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: #00a4ff;
+    background-color: #fff;
+}
+
+.course .course_bd ul li hr {
+    display: inline-block;
+    position: absolute;
+    top: 49px;
+    width: 192px;
+    height: 1px;
+    background-color: #efefef;
+    border: none;
+}
+
+#lastli {
+    margin: 0;
+    margin-bottom: 16px;
+}
+
+
+/* 精品推荐开始 */
+
+.goods {
+    margin-top: 8px;
+    height: 60px;
+    background-color: #fff;
+    vertical-align: middle;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .2);
+}
+
+.goods-item {
+    margin: 22px 0;
+    float: left;
+}
+
+.goods-item a {
+    float: left;
+    margin-right: 35px;
+    font-size: 16px;
+    border-left: 1px solid #bfbfbf;
+    padding-left: 34px;
+}
+
+.goods-item a:hover {
+    font-weight: bold;
+    color: #00a4ff;
+}
+
+.goods-item #firstGood {
+    font-weight: bold;
+    color: #00a4ff;
+    border: none;
+}
+
+.mod {
+    float: right;
+}
+
+.mod a {
+    font-size: 14px;
+    color: #00a4ff;
+    float: right;
+    margin: 22px 26px 0 0;
+}
+
+
+/* 课程开始 */
+
+.box {
+    /* background-color: pink; */
+    margin-top: 20px;
+}
+
+.box .box_hd {
+    height: 50px;
+    line-height: 50px;
+    padding-right: 32px
+    /* border-bottom: 1px solid rgba(0, 0, 0, 0); */
+}
+
+.box .box_hd h3 {
+    float: left;
+    font-size: 20px;
+    color: #494949;
+}
+
+.box .box_hd .box_mod {
+    float: right;
+    font-size: 12px;
+    color: #494949;
+}
+
+.box .box_bd .box_bd_item {
+    height: 270px;
+    margin-bottom: 15px;
+}
+
+.box .box_bd .box_bd_item a {
+    float: left;
+    margin-right: 15px;
+    width: 228px;
+    height: 270px;
+    background-color: #fff;
+}
+
+.box .box_bd .box_bd_item a:hover {
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .2);
+}
+
+.box .box_bd .box_bd_item .righta {
+    margin: 0;
+}
+
+
+/* 悬浮导航开始 */
+
+.floatNav {
+    position: fixed;
+    left: 150px;
+    top: 150px;
+    background-color: #fff;
+    /* border-radius: 20px; */
+}
+
+.floatNav ul li {
+    padding: 0 15px 0 25px;
+    line-height: 36px;
+}
+
+.floatNav ul li a:hover {
+    color: #00a4ff;
+}
+
+.floatNav ul li:hover {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.03);
+    box-shadow: 0 2px rgba(0, 0, 0, 0.1);
+    /* border-radius: 10px; */
+}
+
+.floatNav ul {
+    margin: 10px 0;
+}
